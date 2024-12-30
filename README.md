@@ -101,7 +101,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
   You will notice some extensions are disabled. To remedy this go back to ISS > Sites > Default > osTicket, open `PHP Manager` and click `Enable or disable an extension`. From here we want to eanble 3 extension being `php_imap.dll`, `php_intl.dll` and `php_opcache.dll` by finding, clicking them and hitting enable on the top right
   
-13.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php, we are going to rename this file to `ost-config.php`. We will then right click on this and hit properties, navigate to security and click on advanced and disable the inheritance.
+13.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php, we are going to rename this file to `ost-config.php`. We will then right click on this and hit properties, navigate to security and click on advanced and disable the inheritance and select remove all.
   
 <p>
 <img src="https://i.imgur.com/uGvi4Mm.png" height="100%" width="100%" alt="Perm Setup"/>
